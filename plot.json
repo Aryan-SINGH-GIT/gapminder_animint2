@@ -1,0 +1,379 @@
+{
+ "geoms": {
+ "geom1_point_scatter": {
+ "geom": "point",
+"classed": "geom1_point_scatter",
+"aes": {
+ "x": "year",
+"y": "lifeExp",
+"colour": "continent",
+"clickSelects": "country",
+"showSelected1": "year",
+"showSelected2": "continent" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"clickSelects": "country",
+"showSelected": [ "year", "continent" ],
+"help_clickSelects": "country",
+"help_showSelected": [ "year", "continent" ] 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"clickSelects": "factor",
+"showSelected1": "integer",
+"showSelected2": "factor",
+"PANEL": "integer",
+"group": "character",
+"fill": "rgb" 
+},
+"chunk_order": [
+ "year" 
+],
+"nest_order": [
+ "showSelected2" 
+],
+"subset_order": [
+ "showSelected2" 
+],
+"columns": {
+ "common": [
+ "group",
+"clickSelects",
+"colour",
+"fill",
+"showSelected2" 
+] 
+},
+"chunks": {
+ "1952": 1,
+"1957": 2,
+"1962": 3,
+"1967": 4,
+"1972": 5,
+"1977": 6,
+"1982": 7,
+"1987": 8,
+"1992": 9,
+"1997": 10,
+"2002": 11,
+"2007": 12 
+},
+"total": 12 
+},
+"geom2_line_scatter": {
+ "geom": "line",
+"classed": "geom2_line_scatter",
+"aes": {
+ "x": "year",
+"y": "lifeExp",
+"group": "country",
+"showSelected1": "country",
+"showSelected2": "year" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": [ "country", "year" ],
+"help_showSelected": [ "country", "year" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "character",
+"showSelected1": "factor",
+"showSelected2": "integer",
+"PANEL": "integer" 
+},
+"chunk_order": [
+ "year" 
+],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": {
+ "1952": 1,
+"1957": 2,
+"1962": 3,
+"1967": 4,
+"1972": 5,
+"1977": 6,
+"1982": 7,
+"1987": 8,
+"1992": 9,
+"1997": 10,
+"2002": 11,
+"2007": 12 
+},
+"total": 12 
+} 
+},
+"time": {
+ "variable": "year",
+"ms":     1000,
+"sequence": [ "1952", "1957", "1962", "1967", "1972", "1977", "1982", "1987", "1992", "1997", "2002", "2007" ] 
+},
+"selectors": {
+ "continent": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "Asia", "Europe", "Africa", "Americas", "Oceania" ],
+"levels": [ "Asia", "Europe", "Africa", "Americas", "Oceania" ],
+"update": [
+ "geom1_point_scatter" 
+] 
+},
+"country": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "Afghanistan",
+"levels": [ "Afghanistan", "Albania", "Algeria", "Angola", "Argentina", "Australia", "Austria", "Bahrain", "Bangladesh", "Belgium", "Benin", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo, Dem. Rep.", "Congo, Rep.", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Czech Republic", "Denmark", "Djibouti", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Ethiopia", "Finland", "France", "Gabon", "Gambia", "Germany", "Ghana", "Greece", "Guatemala", "Guinea", "Guinea-Bissau", "Haiti", "Honduras", "Hong Kong, China", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kenya", "Korea, Dem. Rep.", "Korea, Rep.", "Kuwait", "Lebanon", "Lesotho", "Liberia", "Libya", "Madagascar", "Malawi", "Malaysia", "Mali", "Mauritania", "Mauritius", "Mexico", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Norway", "Oman", "Pakistan", "Panama", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Reunion", "Romania", "Rwanda", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Sierra Leone", "Singapore", "Slovak Republic", "Slovenia", "Somalia", "South Africa", "Spain", "Sri Lanka", "Sudan", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tanzania", "Thailand", "Togo", "Trinidad and Tobago", "Tunisia", "Turkey", "Uganda", "United Kingdom", "United States", "Uruguay", "Venezuela", "Vietnam", "West Bank and Gaza", "Yemen, Rep.", "Zambia", "Zimbabwe" ],
+"update": [
+ "geom1_point_scatter",
+"geom2_line_scatter" 
+] 
+},
+"year": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"chunks": "year",
+"selected": "1952",
+"levels": [ "1952", "1957", "1962", "1967", "1972", "1977", "1982", "1987", "1992", "1997", "2002", "2007" ],
+"update": [
+ "geom1_point_scatter",
+"geom2_line_scatter" 
+] 
+} 
+},
+"plots": {
+ "scatter": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "continent": {
+ "guide": "legend",
+"geoms": "point",
+"title": "continent",
+"class": "continent",
+"selector": "continent",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Africa" 
+},
+{
+ "pointcolour": "#A3A500",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Americas" 
+},
+{
+ "pointcolour": "#00BF7D",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Asia" 
+},
+{
+ "pointcolour": "#00B0F6",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Europe" 
+},
+{
+ "pointcolour": "#E76BF3",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "Oceania" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000 
+] 
+],
+"y": [
+ [
+       40,
+      60,
+      80 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     1950,
+    1955,
+    1960,
+    1965,
+    1970,
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005 
+] 
+],
+"y": [
+ [
+       30,
+      40,
+      50,
+      60,
+      70,
+      80 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+     1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000 
+],
+"xlab": [
+ "1950",
+"1960",
+"1970",
+"1980",
+"1990",
+"2000" 
+],
+"xrange": [  1949.25,  2009.75 ],
+"xline": true,
+"xticks": true,
+"y": [
+       40,
+      60,
+      80 
+],
+"ylab": [
+ "40",
+"60",
+"80" 
+],
+"yrange": [  20.6488,  85.5532 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "year",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "lifeExp",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1950",
+"1960",
+"1970",
+"1980",
+"1990",
+"2000" 
+],
+"ylabs": [
+ "40",
+"60",
+"80" 
+],
+"title": "Life Expectancy Over Time (Interactive)",
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_point_scatter",
+"geom2_line_scatter" 
+] 
+} 
+},
+"source": "Aryan Singh - Animint2 Assignment",
+"title": "Life Expectancy Interactive Plot" 
+}

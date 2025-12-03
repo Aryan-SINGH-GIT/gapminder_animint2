@@ -1,0 +1,143 @@
+group	clickSelects	colour	fill	showSelected2
+1	Afghanistan	#00BF7D	#00BF7D	Asia
+1	Albania	#00B0F6	#00B0F6	Europe
+1	Algeria	#F8766D	#F8766D	Africa
+1	Angola	#F8766D	#F8766D	Africa
+1	Argentina	#A3A500	#A3A500	Americas
+1	Australia	#E76BF3	#E76BF3	Oceania
+1	Austria	#00B0F6	#00B0F6	Europe
+1	Bahrain	#00BF7D	#00BF7D	Asia
+1	Bangladesh	#00BF7D	#00BF7D	Asia
+1	Belgium	#00B0F6	#00B0F6	Europe
+1	Benin	#F8766D	#F8766D	Africa
+1	Bolivia	#A3A500	#A3A500	Americas
+1	Bosnia and Herzegovina	#00B0F6	#00B0F6	Europe
+1	Botswana	#F8766D	#F8766D	Africa
+1	Brazil	#A3A500	#A3A500	Americas
+1	Bulgaria	#00B0F6	#00B0F6	Europe
+1	Burkina Faso	#F8766D	#F8766D	Africa
+1	Burundi	#F8766D	#F8766D	Africa
+1	Cambodia	#00BF7D	#00BF7D	Asia
+1	Cameroon	#F8766D	#F8766D	Africa
+1	Canada	#A3A500	#A3A500	Americas
+1	Central African Republic	#F8766D	#F8766D	Africa
+1	Chad	#F8766D	#F8766D	Africa
+1	Chile	#A3A500	#A3A500	Americas
+1	China	#00BF7D	#00BF7D	Asia
+1	Colombia	#A3A500	#A3A500	Americas
+1	Comoros	#F8766D	#F8766D	Africa
+1	Congo, Dem. Rep.	#F8766D	#F8766D	Africa
+1	Congo, Rep.	#F8766D	#F8766D	Africa
+1	Costa Rica	#A3A500	#A3A500	Americas
+1	Cote d'Ivoire	#F8766D	#F8766D	Africa
+1	Croatia	#00B0F6	#00B0F6	Europe
+1	Cuba	#A3A500	#A3A500	Americas
+1	Czech Republic	#00B0F6	#00B0F6	Europe
+1	Denmark	#00B0F6	#00B0F6	Europe
+1	Djibouti	#F8766D	#F8766D	Africa
+1	Dominican Republic	#A3A500	#A3A500	Americas
+1	Ecuador	#A3A500	#A3A500	Americas
+1	Egypt	#F8766D	#F8766D	Africa
+1	El Salvador	#A3A500	#A3A500	Americas
+1	Equatorial Guinea	#F8766D	#F8766D	Africa
+1	Eritrea	#F8766D	#F8766D	Africa
+1	Ethiopia	#F8766D	#F8766D	Africa
+1	Finland	#00B0F6	#00B0F6	Europe
+1	France	#00B0F6	#00B0F6	Europe
+1	Gabon	#F8766D	#F8766D	Africa
+1	Gambia	#F8766D	#F8766D	Africa
+1	Germany	#00B0F6	#00B0F6	Europe
+1	Ghana	#F8766D	#F8766D	Africa
+1	Greece	#00B0F6	#00B0F6	Europe
+1	Guatemala	#A3A500	#A3A500	Americas
+1	Guinea	#F8766D	#F8766D	Africa
+1	Guinea-Bissau	#F8766D	#F8766D	Africa
+1	Haiti	#A3A500	#A3A500	Americas
+1	Honduras	#A3A500	#A3A500	Americas
+1	Hong Kong, China	#00BF7D	#00BF7D	Asia
+1	Hungary	#00B0F6	#00B0F6	Europe
+1	Iceland	#00B0F6	#00B0F6	Europe
+1	India	#00BF7D	#00BF7D	Asia
+1	Indonesia	#00BF7D	#00BF7D	Asia
+1	Iran	#00BF7D	#00BF7D	Asia
+1	Iraq	#00BF7D	#00BF7D	Asia
+1	Ireland	#00B0F6	#00B0F6	Europe
+1	Israel	#00BF7D	#00BF7D	Asia
+1	Italy	#00B0F6	#00B0F6	Europe
+1	Jamaica	#A3A500	#A3A500	Americas
+1	Japan	#00BF7D	#00BF7D	Asia
+1	Jordan	#00BF7D	#00BF7D	Asia
+1	Kenya	#F8766D	#F8766D	Africa
+1	Korea, Dem. Rep.	#00BF7D	#00BF7D	Asia
+1	Korea, Rep.	#00BF7D	#00BF7D	Asia
+1	Kuwait	#00BF7D	#00BF7D	Asia
+1	Lebanon	#00BF7D	#00BF7D	Asia
+1	Lesotho	#F8766D	#F8766D	Africa
+1	Liberia	#F8766D	#F8766D	Africa
+1	Libya	#F8766D	#F8766D	Africa
+1	Madagascar	#F8766D	#F8766D	Africa
+1	Malawi	#F8766D	#F8766D	Africa
+1	Malaysia	#00BF7D	#00BF7D	Asia
+1	Mali	#F8766D	#F8766D	Africa
+1	Mauritania	#F8766D	#F8766D	Africa
+1	Mauritius	#F8766D	#F8766D	Africa
+1	Mexico	#A3A500	#A3A500	Americas
+1	Mongolia	#00BF7D	#00BF7D	Asia
+1	Montenegro	#00B0F6	#00B0F6	Europe
+1	Morocco	#F8766D	#F8766D	Africa
+1	Mozambique	#F8766D	#F8766D	Africa
+1	Myanmar	#00BF7D	#00BF7D	Asia
+1	Namibia	#F8766D	#F8766D	Africa
+1	Nepal	#00BF7D	#00BF7D	Asia
+1	Netherlands	#00B0F6	#00B0F6	Europe
+1	New Zealand	#E76BF3	#E76BF3	Oceania
+1	Nicaragua	#A3A500	#A3A500	Americas
+1	Niger	#F8766D	#F8766D	Africa
+1	Nigeria	#F8766D	#F8766D	Africa
+1	Norway	#00B0F6	#00B0F6	Europe
+1	Oman	#00BF7D	#00BF7D	Asia
+1	Pakistan	#00BF7D	#00BF7D	Asia
+1	Panama	#A3A500	#A3A500	Americas
+1	Paraguay	#A3A500	#A3A500	Americas
+1	Peru	#A3A500	#A3A500	Americas
+1	Philippines	#00BF7D	#00BF7D	Asia
+1	Poland	#00B0F6	#00B0F6	Europe
+1	Portugal	#00B0F6	#00B0F6	Europe
+1	Puerto Rico	#A3A500	#A3A500	Americas
+1	Reunion	#F8766D	#F8766D	Africa
+1	Romania	#00B0F6	#00B0F6	Europe
+1	Rwanda	#F8766D	#F8766D	Africa
+1	Sao Tome and Principe	#F8766D	#F8766D	Africa
+1	Saudi Arabia	#00BF7D	#00BF7D	Asia
+1	Senegal	#F8766D	#F8766D	Africa
+1	Serbia	#00B0F6	#00B0F6	Europe
+1	Sierra Leone	#F8766D	#F8766D	Africa
+1	Singapore	#00BF7D	#00BF7D	Asia
+1	Slovak Republic	#00B0F6	#00B0F6	Europe
+1	Slovenia	#00B0F6	#00B0F6	Europe
+1	Somalia	#F8766D	#F8766D	Africa
+1	South Africa	#F8766D	#F8766D	Africa
+1	Spain	#00B0F6	#00B0F6	Europe
+1	Sri Lanka	#00BF7D	#00BF7D	Asia
+1	Sudan	#F8766D	#F8766D	Africa
+1	Swaziland	#F8766D	#F8766D	Africa
+1	Sweden	#00B0F6	#00B0F6	Europe
+1	Switzerland	#00B0F6	#00B0F6	Europe
+1	Syria	#00BF7D	#00BF7D	Asia
+1	Taiwan	#00BF7D	#00BF7D	Asia
+1	Tanzania	#F8766D	#F8766D	Africa
+1	Thailand	#00BF7D	#00BF7D	Asia
+1	Togo	#F8766D	#F8766D	Africa
+1	Trinidad and Tobago	#A3A500	#A3A500	Americas
+1	Tunisia	#F8766D	#F8766D	Africa
+1	Turkey	#00B0F6	#00B0F6	Europe
+1	Uganda	#F8766D	#F8766D	Africa
+1	United Kingdom	#00B0F6	#00B0F6	Europe
+1	United States	#A3A500	#A3A500	Americas
+1	Uruguay	#A3A500	#A3A500	Americas
+1	Venezuela	#A3A500	#A3A500	Americas
+1	Vietnam	#00BF7D	#00BF7D	Asia
+1	West Bank and Gaza	#00BF7D	#00BF7D	Asia
+1	Yemen, Rep.	#00BF7D	#00BF7D	Asia
+1	Zambia	#F8766D	#F8766D	Africa
+1	Zimbabwe	#F8766D	#F8766D	Africa
